@@ -15,7 +15,7 @@ namespace CodeCamper.Data.SampleData
         {
             public Name()
             {
-                Gender = "M"; // generated techie person is probably male
+                Gender = "m"; // generated techie person is probably male
             }
             public string First { get ; set; }
             public string Last { get ; set; }
