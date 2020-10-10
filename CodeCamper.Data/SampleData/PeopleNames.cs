@@ -17,9 +17,9 @@ namespace CodeCamper.Data.SampleData
             {
                 Gender = "M"; // generated techie person is probably male
             }
-            public string First { get; set; }
-            public string Last { get; set; }
-            public string Gender { get; set; }
+            public string First { get ; set; }
+            public string Last { get ; set; }
+            public string Gender { get ; set; }
         }
 
         public static IEnumerable<Name> GetRandomNames(int count, NameGender nameGender = NameGender.Both)
